@@ -84,6 +84,18 @@ var password = TextEditingController();
                     ),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 5,
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Don't have an account?"),
+                  TextButton(onPressed: () {},
+                      child: Text("Register Now"))
+                ],
               )
           ],
     ),
